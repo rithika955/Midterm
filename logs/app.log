@@ -1,0 +1,38 @@
+2024-10-24 10:17:27,895 - root - INFO - Logging configured.
+2024-10-24 10:17:27,901 - root - INFO - Environment variables loaded.
+2024-10-24 10:17:29,772 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-10-24 10:17:29,775 - root - INFO - Command 'clear' from plugin 'clear' registered.
+2024-10-24 10:17:29,777 - root - INFO - Command 'delete' from plugin 'delete' registered.
+2024-10-24 10:17:29,778 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-10-24 10:17:29,780 - root - INFO - Command 'load' from plugin 'load' registered.
+2024-10-24 10:17:29,780 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-10-24 10:17:29,782 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-10-24 10:17:29,785 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-10-24 10:17:29,785 - root - INFO - Application started. Type 'exit' to exit.
+2024-10-24 10:17:41,890 - root - INFO - division of 3.0 and 4.0 = 0.75
+2024-10-24 10:17:41,890 - root - INFO - The Division operation was performed successfully
+2024-10-24 10:28:22,408 - root - INFO - addition of 4.0 and 5.0 = 9.0
+2024-10-24 10:28:22,438 - root - INFO - The Addition operation was performed successfully
+2024-10-24 10:28:27,964 - root - INFO - Subtraction of 6.0 and 4.0 = 2.0
+2024-10-24 10:28:27,964 - root - INFO - The Subtract operation was performed successfully
+2024-10-24 10:28:50,495 - root - INFO - addition of 5.0 and 6.0 = 11.0
+2024-10-24 10:28:50,496 - root - INFO - The Addition operation was performed successfully
+2024-10-24 10:29:02,617 - root - INFO - Application exit.
+2024-10-24 10:29:02,617 - root - INFO - Application shutdown.
+2024-10-24 10:29:05,996 - root - INFO - Logging configured.
+2024-10-24 10:29:05,998 - root - INFO - Environment variables loaded.
+2024-10-24 10:29:07,197 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-10-24 10:29:07,200 - root - INFO - Command 'clear' from plugin 'clear' registered.
+2024-10-24 10:29:07,203 - root - INFO - Command 'delete' from plugin 'delete' registered.
+2024-10-24 10:29:07,204 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-10-24 10:29:07,206 - root - INFO - Command 'load' from plugin 'load' registered.
+2024-10-24 10:29:07,208 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-10-24 10:29:07,210 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-10-24 10:29:07,212 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-10-24 10:29:07,212 - root - INFO - Application started. Type 'exit' to exit.
+2024-10-24 10:29:11,256 - root - INFO - addition of 4.0 and 5.0 = 9.0
+2024-10-24 10:29:11,256 - root - INFO - The Addition operation was performed successfully
+2024-10-24 10:29:23,694 - root - INFO - Subtraction of 6.0 and 5.0 = 1.0
+2024-10-24 10:29:23,694 - root - INFO - The Subtract operation was performed successfully
+2024-10-24 10:53:29,423 - root - INFO - Application exit.
+2024-10-24 10:53:29,513 - root - INFO - Application shutdown.
