@@ -38,7 +38,7 @@ You can use the following commands within the REPL command interface:
 8. Menu: options are displayed
 9. Exit: Exit the application
 
-To check the codes for all these plugins, [click here](https://github.com/rithika955/Midterm/tree/main/app/plugins)
+To check the codes for all these plugins, [click here](https://github.com/rithika955/Midterm/tree/master/app/plugins)
 
 
 
