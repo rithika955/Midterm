@@ -25,7 +25,7 @@ python3 main.py
 
 You can choose any of the options displayed and give data accordingly for a particular operation and see the results getting displayed and also stored in the csv file in the data folder.
 
-The menu functions has all the options or functionalities the app has to offer,[Click here](https://github.com/rithiks955/Midterm/tree/main/app/plugins)
+The menu functions has all the options or functionalities the app has to offer,[Click here](https://github.com/rithika955/Midterm/tree/master/app/plugins)
 You can use the following commands within the REPL command interface:
 
 1. Add: to add two numbers
