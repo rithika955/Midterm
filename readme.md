@@ -75,9 +75,13 @@ ID,action,arg1,arg2
 3,add,4.0,5.0
 
 4,subtract,6.0,5.0
+
 5,add,3.0,4.0
+
 6,subtract,7.0,6.0
+
 7,multiply,10.0,76.0
+
 8,divide,9.0,6.0
 
 ### 2. Delete: deletes a particular record when the Id is given
@@ -87,12 +91,19 @@ For example, let us delete the record with ID=4
 Now, the history looks like this:
 
 ID,action,arg1,arg2
+
 1,divide,3.0,4.0
+
 2,subtract,6.0,4.0
+
 3,add,4.0,5.0
+
 4,add,3.0,4.0
+
 5,subtract,7.0,6.0
+
 6,multiply,10.0,76.0
+
 7,divide,9.0,6.0
 
 ### 3. clear: this command clears the entire history stoed in the calculator_history.csv file
@@ -120,24 +131,43 @@ Logging is carefully incorporated into the application's codebase to record a va
 Example of logging:
 
 2024-10-24 23:11:31,727 - root - INFO - Logging configured.
+
 2024-10-24 23:11:31,766 - root - INFO - Environment variables loaded.
+
 2024-10-24 23:11:50,000 - root - INFO - Command 'add' from plugin 'add' registered.
+
 2024-10-24 23:11:50,012 - root - INFO - Command 'clear' from plugin 'clear' registered.
+
 2024-10-24 23:11:50,014 - root - INFO - Command 'delete' from plugin 'delete' registered.
+
 2024-10-24 23:11:50,018 - root - INFO - Command 'divide' from plugin 'divide' registered.
+
 2024-10-24 23:11:50,021 - root - INFO - Command 'load' from plugin 'load' registered.
+
 2024-10-24 23:11:50,022 - root - INFO - Command 'menu' from plugin 'menu' registered.
+
 2024-10-24 23:11:50,026 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+
 2024-10-24 23:11:50,034 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+
 2024-10-24 23:11:50,034 - root - INFO - Application started. Type 'exit' to exit.
+
 2024-10-24 23:12:37,109 - root - INFO - addition of 3.0 and 4.0 = 7.0
+
 2024-10-24 23:12:37,143 - root - INFO - The Addition operation was performed successfully
+
 2024-10-24 23:12:46,877 - root - INFO - Subtraction of 7.0 and 6.0 = 1.0
+
 2024-10-24 23:12:46,877 - root - INFO - The Subtract operation was performed successfully
+
 2024-10-24 23:12:56,012 - root - INFO - Multiplication of 10.0 and 76.0 = 760.0
+
 2024-10-24 23:12:56,014 - root - INFO - The Multiplication operation was performed successfully
+
 2024-10-24 23:13:09,398 - root - INFO - division of 9.0 and 6.0 = 1.5
+
 2024-10-24 23:13:09,399 - root - INFO - The Division operation was performed successfully
+
 2024-10-24 23:15:01,470 - root - INFO - History of the record with ID 4 has been deleted.
 
 3. **Reporting errors and handling exceptions**:
