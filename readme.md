@@ -67,9 +67,13 @@ It displays complete history of the operations performed which are stored in the
 History looks like this:
 
 ID,action,arg1,arg2
+
 1,divide,3.0,4.0
+
 2,subtract,6.0,4.0
+
 3,add,4.0,5.0
+
 4,subtract,6.0,5.0
 5,add,3.0,4.0
 6,subtract,7.0,6.0
