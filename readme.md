@@ -8,6 +8,7 @@ An advanced python calculator has been developed in this project which satifies 
 ## Step 1: Clone this repository
 
 Clone this particular repository by using the following command:
+
 git clone https://github.com/rithika955/Midterm
 
 ## Step 2: Install all the required libraries in the requirements.txt file by using the following command:
@@ -46,22 +47,22 @@ To check the codes for all these plugins, [click here](https://github.com/rithik
 ## Arithmetic Operations:
 
 ### 1.Add: for addition 
-[Click here] (https://github.com/rithika955/Midterm/tree/master/app/plugins/add/__init__.py)
+[Click here](https://github.com/rithika955/Midterm/tree/master/app/plugins/add/__init__.py)
 
 ### 2. Subtract: for subtraction
-[Click here] (https://github.com/rithika955/Midterm/tree/master/app/plugins/subtract/__init__.py)
+[Click here](https://github.com/rithika955/Midterm/tree/master/app/plugins/subtract/__init__.py)
 
 ### 3. Multiply: for multiplication
-[Click here] (https://github.com/rithika955/Midterm/tree/master/app/plugins/multiply/__init__.py)
+[Click here](https://github.com/rithika955/Midterm/tree/master/app/plugins/multiply/__init__.py)
 
 ### 4. Divide: for division
-[Click here] (https://github.com/rithika955/Midterm/tree/master/app/plugins/divide/__init__.py)
+[Click here](https://github.com/rithika955/Midterm/tree/master/app/plugins/divide/__init__.py)
 
 ## Managing History:
 
 ### 1. Load: loads the history of the calculator
 It displays complete history of the operations performed which are stored in the calculation_history.csv file.
-[Click here] (https://github.com/rithika955/Midterm/tree/master/app/plugins/load/__init__.py)
+[Click here](https://github.com/rithika955/Midterm/tree/master/app/plugins/load/__init__.py)
 
 History looks like this:
 
@@ -76,7 +77,7 @@ ID,action,arg1,arg2
 8,divide,9.0,6.0
 
 ### 2. Delete: deletes a particular record when the Id is given
-[Click here] (https://github.com/rithika955/Midterm/tree/master/app/plugins/delete/__init__.py)
+[Click here](https://github.com/rithika955/Midterm/tree/master/app/plugins/delete/__init__.py)
 
 For example, let us delete the record with ID=4
 Now, the history looks like this:
@@ -91,12 +92,13 @@ ID,action,arg1,arg2
 7,divide,9.0,6.0
 
 ### 3. clear: this command clears the entire history stoed in the calculator_history.csv file
-[Click here] (https://github.com/rithika955/Midterm/tree/master/app/plugins/clear/__init__.py)
+[Click here](https://github.com/rithika955/Midterm/tree/master/app/plugins/clear/__init__.py)
 
 ## Design of the application:
-1. 'Command pattern': The command pattern is best illustrated by the `execute` method in the command handling code. Every command, including `add`, `subtract`, and so on, is represented as an object that contains the action that needs to be performed. By encouraging decoupling between the executor (such as calculating logic) and the invoker (such as user input), this design improves modularity and flexibility. [Click here] (https://github.com/rithika955/Midterm/blob/master/app/commands/__init__.py)
-2. 'Facade pattern': With the help of pandas, the `History` class serves as a platform, providing a simplified method for managing CSV data. With features like `writing_the_data`, `get_as_list`, `get_as_dataframe`, and `clear`, it offers an easy-to-use interface that protects users from the complexities of file management and pandas. By removing the complexity of data management, this abstraction enables users to manipulate CSV data with ease. [Click here] (https://github.com/rithika955/Midterm/tree/master/app/history/__init__.py)
-3. 'Singleton pattern': As a singleton instance, the `MenuCommand` class makes sure that only one instance is made for the course of the application's lifecycle. The 'MenuCommand' class implementation in the "app.plugins.menu" module exemplifies the singleton approach. This guarantees consistent behavior throughout the program and encourages resource efficiency. [Click here] (https://github.com/rithika955/Midterm/tree/master/app/__init__.py)
+1. 'Command pattern': The command pattern is best illustrated by the `execute` method in the command handling code. Every command, including `add`, `subtract`, and so on, is represented as an object that contains the action that needs to be performed. By encouraging decoupling between the executor (such as calculating logic) and the invoker (such as user input), this design improves modularity and flexibility. [Click here](https://github.com/rithika955/Midterm/blob/master/app/commands/__init__.py)
+2. 'Facade pattern': With the help of pandas, the `History` class serves as a platform, providing a simplified method for managing CSV data. With features like `writing_the_data`, `get_as_list`, `get_as_dataframe`, and `clear`, it offers an easy-to-use interface that protects users from the complexities of file management and pandas. By removing the complexity of data management, this abstraction enables users to manipulate CSV data with ease. [Click here](https://github.com/rithika955/Midterm/tree/master/app/history/__init__.py)
+3. 'Singleton pattern': As a singleton instance, the `MenuCommand` class makes sure that only one instance is made for the course of the application's lifecycle. The 'MenuCommand' class implementation in the "app.plugins.menu" module exemplifies the singleton approach. This guarantees consistent behavior throughout the program and encourages resource efficiency.
+[Click here](https://github.com/rithika955/Midterm/tree/master/app/__init__.py)
 
 ## Logging: 
 
@@ -105,7 +107,7 @@ To provide thorough monitoring and efficient troubleshooting, the program uses P
 1. **Configuration and Initialization**:
 
 At the beginning of the application, typically in the main module or entry point, the logging setup is coordinated. This configuration includes setting up settings such as the output destination (e.g., file, console), format, and logging level. To improve maintainability and flexibility, configuration settings are centralized and streamlined using a special logging configuration file (`logging.conf`).
-(https://github.com/rithika955/Midterm/tree/master/logging.conf) [click here]
+(https://github.com/rithika955/Midterm/tree/master/logging.conf)[click here]
 
 2. **Categorization of Use and Messages**:
 
@@ -144,7 +146,7 @@ By using this logging technique, the application strengthens its dependability a
 
 **Achievement**: Explore the implementation of the `divide` plugin, where possible 'ZeroDivisionError' exceptions are handled gently via the try/except method. This method promotes readability and clarity in the code while guaranteeing strong error management, which is in line with Pythonic principles.
 
-(https://github.com/rithika955/Midterm/tree/master/app/plugins/divide/__init__.py) [click here]
+(https://github.com/rithika955/Midterm/tree/master/app/plugins/divide/__init__.py)[click here]
 
 In addition to improving the application's dependability, this unique approach to design patterns, logging plans, and error-handling procedures raises the bar for the user experience as a whole.
 
