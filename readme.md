@@ -122,7 +122,7 @@ To provide thorough monitoring and efficient troubleshooting, the program uses P
 1. **Configuration and Initialization**:
 
 At the beginning of the application, typically in the main module or entry point, the logging setup is coordinated. This configuration includes setting up settings such as the output destination (e.g., file, console), format, and logging level. To improve maintainability and flexibility, configuration settings are centralized and streamlined using a special logging configuration file (`logging.conf`).
-(https://github.com/rithika955/Midterm/tree/master/logging.conf)[click here]
+[click here](https://github.com/rithika955/Midterm/tree/master/logging.conf)
 
 2. **Categorization of Use and Messages**:
 
@@ -180,7 +180,7 @@ By using this logging technique, the application strengthens its dependability a
 
 **Achievement**: Explore the implementation of the `divide` plugin, where possible 'ZeroDivisionError' exceptions are handled gently via the try/except method. This method promotes readability and clarity in the code while guaranteeing strong error management, which is in line with Pythonic principles.
 
-(https://github.com/rithika955/Midterm/tree/master/app/plugins/divide/__init__.py)[click here]
+[click here](https://github.com/rithika955/Midterm/tree/master/app/plugins/divide/__init__.py)
 
 In addition to improving the application's dependability, this unique approach to design patterns, logging plans, and error-handling procedures raises the bar for the user experience as a whole.
 
