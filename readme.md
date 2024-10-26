@@ -1,7 +1,7 @@
 # IS601 MIDTERM - ADVANCED PYTHON CALCULATOR
 An advanced python calculator has been developed in this project which satifies all the requirements like advanced design patterns, maintainable code, logging,  dynamic configuration via environment variables, sophisticated data handling with Pandas, and a command-line interface (REPL) for real-time user interaction.
 
-## Video Presentation link [click here]
+## Video Presentation link [click here](https://drive.google.com/file/d/1OWyfzhrMDXJGNfAhI6jClrCmVaPpCkdE/view?usp=drive_link)
 
 ## Follow these steps for the succesful execution of the code:
 
